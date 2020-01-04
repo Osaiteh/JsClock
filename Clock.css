@@ -1,11 +1,23 @@
-@import url("https:fonts.googleapis.com/css?family=Orbitron");
+@font-face {
+    font-family: Clocker;
+    src: url("Clocker.ttf");
+  }
+  @font-face {
+    font-family: Octin;
+    src: url("Octin.ttf");
+  }
+  @font-face {
+    font-family: "Godfather";
+    src: url("TheGodfather.ttf");
+  }
+
 body{
     background-color: blanchedalmond;
 }
 #clock{
-    font-family:"Orbitron", sans-serif;
-    color: #3f2600;
-    font-size: 56px;
+    font-family:"Octin";
+    color: #ff9900;
+    font-size: 100px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
